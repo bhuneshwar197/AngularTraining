@@ -1,0 +1,9 @@
+<p>parent-lazy works!</p>
+<h1>
+    Hello I am such a lazy component . Here are all my lazy chiildren.
+</h1>
+
+<div *ngFor="let name of ['john','Bhunes','abc']">
+    <p>Helo . My name is {{name}}. I am such a lazy component like my parent.</p>
+    <app-child-lazy></app-child-lazy>
+</div>
